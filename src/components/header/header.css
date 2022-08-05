@@ -1,0 +1,30 @@
+.myHeader,
+.myHeader-mobile {
+  background-color: white;
+}
+nav > div {
+  padding: 0 !important;
+}
+.icon-header :is(p, button) {
+  font-size: 12px;
+}
+.ctn-items-right-side {
+  width: 36%;
+}
+.ctn-input-desktop {
+  width: 40%;
+}
+@media (min-width: 769px) {
+  .myHeader-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .myHeader {
+    display: none !important;
+  }
+  .icon-header p {
+    display: none;
+  }
+}

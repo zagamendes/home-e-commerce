@@ -1,0 +1,14 @@
+.ctn-brand {
+  width: 208px;
+}
+@media (max-width: 768px) {
+  .ctn-brand {
+    width: 70%;
+    display: flex;
+
+    justify-content: center;
+  }
+  .row-brand {
+    padding: 0 35px !important;
+  }
+}

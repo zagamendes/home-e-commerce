@@ -1,0 +1,23 @@
+@media (max-width: 1280px) {
+  .ctn-text {
+    width: 250px;
+  }
+  .ctn-text p {
+    font-size: 12px;
+  }
+  .ctn-text-side-img {
+    width: 844px;
+  }
+}
+@media (max-width: 768px) {
+  .main-ctn-text-side {
+    flex-direction: column;
+  }
+  .ctn-text-side-img {
+    width: 300px;
+  }
+  .ctn-text {
+    width: 270px;
+    margin-left: -30px;
+  }
+}

@@ -1,0 +1,9 @@
+footer {
+  background-color: #fafafa;
+  padding: 0 200px !important;
+}
+@media (max-width: 768px) {
+  footer {
+    display: none !important;
+  }
+}

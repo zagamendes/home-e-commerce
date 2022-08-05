@@ -1,0 +1,21 @@
+.smallCard {
+  max-width: 208px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #efefef;
+}
+.smallCard p {
+  height: 20px;
+  margin-left: 10px !important;
+}
+.smallCard p > strong {
+  font-size: 14px;
+}
+.smallCard p > small {
+  font-size: 8px;
+}
+@media (max-width: 768px) {
+  .ctn-smallCard {
+    overflow: hidden;
+  }
+}
