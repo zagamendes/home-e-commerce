@@ -18,4 +18,8 @@
   .ctn-smallCard {
     overflow: hidden;
   }
+  .smallCard {
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
 }
